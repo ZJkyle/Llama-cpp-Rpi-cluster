@@ -19,6 +19,7 @@ minikube start --driver=docker --force (if not root, don't use force)
 ```
 
 * Kubernetes 
+
 `sudo snap install kubectl --classic`
 `kubectl cluster-info`
 `kubectl apply -f https://raw.githubusercontent.com/volcano-sh/volcano/master/installer/volcano-development.yaml`
